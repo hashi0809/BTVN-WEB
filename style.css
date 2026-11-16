@@ -7,16 +7,18 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #f3f4f6;
   margin: 0;
   color: #1f2937;
+  padding: 40px 16px;
 }
 
 .profile-card {
   background-color: #ffffff;
   width: 420px;
-  margin: 80px auto;
+  max-width: 100%;
+  margin: 0 auto 40px;
   border-radius: 16px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
 }
@@ -25,16 +27,14 @@ body {
   padding: 24px 32px 16px;
 }
 
-.card-header h1 {
+.card-header h2 {
   margin: 0 0 8px 0;
-  font-size: 1.5rem;
   font-weight: 700;
   color: #111827;
 }
 
 .card-header p {
   margin: 0;
-  font-size: 0.875rem;
   color: #6b7280;
 }
 
@@ -48,7 +48,6 @@ body {
 
 label {
   display: block;
-  font-size: 0.875rem;
   font-weight: 600;
   margin-bottom: 8px;
   color: #374151;
@@ -59,7 +58,6 @@ label {
   padding: 14px 16px;
   border: 1px solid #d1d5db;
   border-radius: 8px;
-  font-size: 0.9375rem;
   outline: none;
 }
 
@@ -70,7 +68,38 @@ label {
   color: #ffffff;
   border: none;
   border-radius: 8px;
-  font-size: 1rem;
   font-weight: 600;
   margin-top: 12px;
+}
+
+.ban-px .card-header h2 {
+  font-size: 24px;
+}
+.ban-px .card-header p {
+  font-size: 14px;
+}
+.ban-px label {
+  font-size: 14px;
+}
+.ban-px .input-field {
+  font-size: 15px;
+}
+.ban-px .btn-submit {
+  font-size: 16px;
+}
+
+.ban-rem .card-header h2 {
+  font-size: 1.5rem;
+}
+.ban-rem .card-header p {
+  font-size: 0.875rem;
+}
+.ban-rem label {
+  font-size: 0.875rem;
+}
+.ban-rem .input-field {
+  font-size: 0.9375rem;
+}
+.ban-rem .btn-submit {
+  font-size: 1rem;
 }
